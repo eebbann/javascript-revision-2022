@@ -65,3 +65,29 @@ if (password.length >= 8) { // if password length is greater than 8
 	console.log('password is invalid');
 }
  
+// truthy and falsy values (boolean values)
+// every value has a truthiness and falsy value in them
+
+let grade = '3';
+ if (grade) {
+	 console.log('condition is true');
+ }
+ else{
+	 console.log('condition is false');
+ }
+ // falsy values : false, 0, '', null, undefined, NaN
+ //better example using login page
+
+ let loggedIn = 'eebann';
+ if (loggedIn) {
+	 console.log('you are logged in');
+ }else{
+	 console.log('you are not logged in');
+ }
+ //opposite example to give falsy value
+ let logged = null;
+ if (logged) {
+	 console.log('you are logged in');
+ }	else{
+	 console.log('you are not logged in');
+ }
