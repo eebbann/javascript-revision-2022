@@ -12,3 +12,12 @@ var age = 20;
 if (age >= 18) {
 	console.log("You are an adult");
 }
+
+//checking even numbers using if statement
+let number = 10;
+if (number % 2 === 0) { // to check odd number use 2 !== 0
+	console.log("Number is even");
+}
+else {
+	console.log("Number is odd");
+}
