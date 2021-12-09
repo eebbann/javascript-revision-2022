@@ -1,4 +1,4 @@
-//condition statement
+//condition statement A-Z
 
 // if statement check this on browser console
 
@@ -53,10 +53,11 @@ else { // else statement only runs when all condition stated doesn't work
 }
 
 //... nesting conditionals inside conditions
+// check line 100 for better way of doing this
 
 let password= 'wes mmm ' ;
 if (password.length >= 8) { // if password length is greater than 8
-	if (password.indexOf(' ') === -1) {// if password doesn't have space ..the space between password does not count
+	if (password.indexOf(' ') === -1) {// if password doesn't have space .. 
 		console.log('password is valid');
 	} else {// else statement
 		console.log('password is long enough but contains spaces');
@@ -91,3 +92,71 @@ let grade = '3';
  }	else{
 	 console.log('you are not logged in');
  }
+
+ // Logical Operations :&&(And), ||(or), !(not)
+ // && : both conditions must be true
+ // || : one condition must be true
+ // ! : opposite of the condition
+//using pass instead of password because password has already been declared
+ let pass = 'westMan';
+ if(pass.length >= 5 && pass.indexOf(' ') === -1){
+	 console.log('valid password');
+ }
+ else {
+	 console.log('not that valid')
+ }
+ //using || (or) operation:  just need one condition to be true 
+ //let pass = 'westMan'; already declared up so no need to declare again
+ if(pass.length >= 5 || pass.indexOf(' ') === -1){ // theres a better way to chain multiple  || condition we discuss in future
+	 console.log('yes ninja  valid password');
+ }
+ else {
+	 console.log('not that valid')
+ }
+ //using !(not) operation: opposite of the condition
+ //let pass = 'westMan'; already declared up so no need to declare again
+ if(!pass.length >= 5 && pass.indexOf(' ') === -1){
+	 console.log('valid password');
+ }
+ else {
+	 console.log('not that valid')
+ }
+//another example
+let loggedInUser ;
+if(!loggedInUser){	// if loggedInUser is not true
+	console.log('shinobi please login');
+}
+//another example
+let flavour = 'chocolate';
+if(flavour !== 'grape' && flavour !== 'orange'){	// if loggedInUser is true
+	console.log('need me some flavour');
+}
+// another way to write the above example
+if (!(flavour == 'milky' || flavour == 'orange')){ // if flavour is not equal to grape or orange
+	console.log('get me a flavour');
+}
+
+
+
+// Switch statement
+// switch statement is used to check a condition and execute a block of code
+let day = 2;
+switch (day) {
+	case 1:
+		console.log('Monday');
+		break;// break statement to stop the execution of the code if the condition is true
+	case 2:
+		console.log('Tuesday');
+		break;
+	case 3:
+		console.log('Wednesday');
+		break;
+	case 4:
+		console.log('Thursday');
+		break;
+		default: // if none of the conditions are true
+			console.log('not a valid day');
+}
+
+
+
