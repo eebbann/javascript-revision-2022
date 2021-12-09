@@ -159,4 +159,27 @@ switch (day) {
 }
 
 
+//TERNARY OPERATOR
+// called ternary because they are three pieces 
+
+let num = 7
+//if (num > 5) {
+//	console.log('num is greater than 5');
+//}
+//else {
+//	console.log('num is less than 5');
+//}
+//for ternary operator we use ? and :
+num === 5 ? console.log('num is 5') : console.log('num is not 5');
+
+// example 2
+let status = 'offline';	
+let color = status  == 'offline ' ? 'red' : 'green';
+// using if 
+//let color ;
+// if (status === 'online') {
+// 	color = 'green';
+// }else {
+// 	color = 'red';
+// }
 
