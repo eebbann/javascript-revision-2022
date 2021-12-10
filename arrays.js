@@ -22,3 +22,9 @@ shoppingList[shoppingList.length] = 'butter' //adding a new item to the array en
 console.log(shoppingList) //note the length property is the number of items in the array
 
 
+//Array methods note: .length property is not a method
+//method : Push to add a new item to the end of the array
+
+let songs = ['song1','song2','song3']
+songs.push('song4')
+console.log(songs)
