@@ -79,3 +79,11 @@ console.log(colors5.reverse())
 let colors6 = ['red','blue','green','black','orange','pink']
 console.log(colors6.join(' ')) //returns a string
 console.log(colors6.join('-')) //returns a string
+
+//splice method to remove items from an array
+let colors7 = ['red','blue','green','black','orange','pink']
+console.log(colors7)
+console.log(colors7.splice(1,2)) //returns the removed items
+//replace the removed items with a new item
+colors7.splice(1,2,'tomato','orange') // first index is the index of the item to be removed, second is the number of items to be removed
+console.log(colors7)
