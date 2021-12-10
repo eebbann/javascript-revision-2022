@@ -78,4 +78,4 @@ console.log(colors5.reverse())
 //join method
 let colors6 = ['red','blue','green','black','orange','pink']
 console.log(colors6.join(' ')) //returns a string
-
+console.log(colors6.join('-')) //returns a string
