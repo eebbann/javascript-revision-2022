@@ -43,3 +43,18 @@ console.log(dishesToDo)
 //unshift method
 dishesToDo.unshift('mug','bowl');
 console.log(dishesToDo) //can add more than one data at a time also with push
+
+//method: concat- to combine multiple arrays
+let colors1 = ['red','blue','green']
+let colors2 = ['yellow','orange','pink']
+let colors3 = colors1.concat(colors2)
+console.log(colors3)
+
+//example 2
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+const array3 = ['g', 'h', 'i'];
+const array4 = array1.concat(array2, array3);
+
+console.log(array4);
+
