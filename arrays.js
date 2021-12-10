@@ -85,5 +85,13 @@ let colors7 = ['red','blue','green','black','orange','pink']
 console.log(colors7)
 console.log(colors7.splice(1,2)) //returns the removed items
 //replace the removed items with a new item
-colors7.splice(1,2,'tomato','orange') // first index is the index of the item to be removed, second is the number of items to be removed
+colors7.splice(0,1,'tomato') // first index is the index of the item to be removed, second is the number of items to be removed
 console.log(colors7)
+
+//sort method to sort the array
+let colors8 = ['red','blue','green','black','orange','pink']
+console.log(colors8)
+console.log(colors8.sort()) //returns the sorted array
+
+// to find more array methods use the mozilla developer network
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
