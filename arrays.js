@@ -58,3 +58,16 @@ const array4 = array1.concat(array2, array3);
 
 console.log(array4);
 
+//method : includes to check if an array contains a specific value - returns true or false
+let colors4 = ['red','blue','green','black','orange','pink']
+console.log(colors4.includes('red'))  //returns true
+console.log(colors4.includes('yellow')) //returns false
+//to be specific in includes add a second parameter to the method
+console.log(colors4.includes('red',0)) //returns true because the first parameter is the index
+
+//method:  indexOf to find the index of a specific value returns the index of the value
+console.log(colors4.indexOf('red')) //returns 0
+console.log(colors4.indexOf('yellow')) //returns -1
+//to be specific in indexOf add a second parameter to the method
+console.log(colors4.indexOf('blue',0)) //returns 1 because the 2nd parameter is the index
+
