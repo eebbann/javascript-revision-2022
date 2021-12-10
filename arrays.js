@@ -71,3 +71,11 @@ console.log(colors4.indexOf('yellow')) //returns -1
 //to be specific in indexOf add a second parameter to the method
 console.log(colors4.indexOf('blue',0)) //returns 1 because the 2nd parameter is the index
 
+//next method: reverse to reverse the order of the array
+let colors5 = ['red','blue','green','black','orange','pink']
+console.log(colors5)
+console.log(colors5.reverse())
+//join method
+let colors6 = ['red','blue','green','black','orange','pink']
+console.log(colors6.join(' ')) //returns a string
+

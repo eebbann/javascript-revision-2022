@@ -115,7 +115,7 @@ let grade = '3';
  }
  //using !(not) operation: opposite of the condition
  //let pass = 'westMan'; already declared up so no need to declare again
- if(!pass.length >= 5 && pass.indexOf(' ') === -1){
+ if(!pass.length >= 5 && pass.indexOf(' ') === -1){ // you can use 0 instead of -1
 	 console.log('valid password');
  }
  else {
