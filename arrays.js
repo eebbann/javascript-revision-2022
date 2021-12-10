@@ -26,5 +26,20 @@ console.log(shoppingList) //note the length property is the number of items in t
 //method : Push to add a new item to the end of the array
 
 let songs = ['song1','song2','song3']
-songs.push('song4')
+songs.push('song4') // arrays are mutable unlike strings which are immutable
 console.log(songs)
+
+//method : pop to remove the last item from the array
+//opposite of push
+songs.pop()
+console.log(songs);
+let man = []
+songs.pop
+
+//method: shift to remove from the first array 
+let  dishesToDo = ['plates','spoon','knives']
+dishesToDo.shift()
+console.log(dishesToDo)
+//unshift method
+dishesToDo.unshift('mug','bowl');
+console.log(dishesToDo) //can add more than one data at a time also with push
