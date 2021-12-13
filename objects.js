@@ -56,10 +56,21 @@ console.log(fitBitData[45]);//to access a non string value
 	console.log(myOb);
 
 	//adding properties to objects
-	const myOb = {};
-	myOb['name'] = 'John';
-	myOb['age'] = '27';
-	myOb['hobby'] = 'coding';	
-	myOb['isMarried'] = 'no';
-	console.log(myOb);
+	const myObe = {};
+	myObe['name'] = 'John';
+	myObe['age'] = '27';
+	myObe['hobby'] = 'coding';	
+	myObe['isMarried'] = 'no';
+	console.log(myObe);
+
+	//calculation in objects
+	const my = {};
+	my['name'] = 'John';
+	my['age'] = '27';
+	my['hobby'] = 'coding';
+	my['isMarried'] = 'no';
+	my['calcAge'] = function(){
+		return 2021 - this.age;
+	}
+	console.log(my.calcAge());
  
