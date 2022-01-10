@@ -85,8 +85,43 @@ console.log(allGroceries.indexOf("tomato"));//returns the index of the value
 //fromIndex
 console.log(allGroceries.indexOf("tomato", 2));
 
-//
+//.reverse() method	
+//reverses the order of the array
+let numbers = [1,2,3,4,5,6,7,8,9,10];
+console.log(numbers);
+numbers.reverse();
+console.log(numbers);// returns 10,9,8,7,6,5,4,3,2,1
 
+//.join() method
+//joins the array into a string
+let numbers2 = ['a', 'b', 'c', 'd', 'e'];
+console.log(numbers2);
+let string = numbers2.join('-'); //. is the separator
+console.log(string);
+
+//.slice() method 
+//returns a new array
+let numbers3 = [1,2,3,4,5,6,7,8,9,10];
+console.log(numbers3);
+let newArray = numbers3.slice(2,5); //start at index 2 and end at index 5
+console.log(newArray);
+
+//.splice() method
+//splice() is used to remove or add elements to an array
+let numbers4 = [1,2,3,4,5,6,7,8,9,10];
+console.log(numbers4);
+numbers4.splice(2,3); //start at index 2 and remove 3 elements
+console.log(numbers4);
+//adding array elements
+let numbers5 = [1,2,3,4,5,6,7,8,9,10];
+console.log(numbers5);
+numbers5.splice(2,0,...numbers4); //start at index 2 and add 3 elements
+console.log(numbers5);
+
+let food = ["apple", "banana", "orange"];
+let vegetable2 = food.splice(1,1,"carrot"); //start at index 1 and add 1 element
+console.log(food);
+console.log(vegetable2);
 
 
 
