@@ -74,3 +74,37 @@ console.log(fitBitData[45]);//to access a non string value
 	}
 	console.log(my.calcAge());
  
+	//nesting objects
+	const ebanObj = {
+		name: 'John',
+		age: 27,
+		hobby: 'coding',
+		isMarried: false,
+		family: ['Jane', 'Mark', 'Bob', 'Emily'],
+		address: {
+			street: '50 Main st',
+			city: 'Boston',
+			state: 'MA'
+		}
+	}
+
+	console.log(ebanObj);
+	console.log(ebanObj.address['city']);
+
+	//referencing nested objects
+	const myBj = {
+		name: 'John',
+		age: 27,
+		hobby: 'coding',
+		isMarried: false,
+		family: ['Jane', 'Mark', 'Bob', 'Emily'],
+		address: {
+			street: '50 Main st',
+			city: 'Boston',
+			state: 'MA'
+		}
+	}
+
+	const myObjRef = myBj;
+	console.log(myObjRef.address.city);
+
