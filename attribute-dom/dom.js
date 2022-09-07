@@ -4,16 +4,8 @@
 //elements
 //attributes
 
-let names = movies.join(", ")
-console.log(names)
-let p = document.getElementById('para')
-console.log(p)
+ let li = document.querySelector(".main")
+ li.setAttribute("class", "nam")
+ console.log(li.getAttribute("class"))
 
-p.innerHTML= names;
-
-
-let ps = document.querySelectorAll('.main p')
-
-for(let i =0, num = ps.length; i < num; i++){
-	ps[i].textContent += " kinko";
-}
+  
