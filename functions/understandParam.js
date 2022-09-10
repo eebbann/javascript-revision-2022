@@ -3,11 +3,12 @@
  
 //using arrays as arguments
  
-var arr = ['fish','meal','snd' ];
+let myArray = ["one", "two", "three", "four"];
 
- 
-  function  func (ray,de,men) {
-return ray, de, men
- 
-} 
- 
+  function  func (grey) {
+		for(let i = 0; i < grey.length; i++){ 
+	  	 grey[i];
+			}
+}
+
+func(myArray) 
