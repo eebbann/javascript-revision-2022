@@ -1,5 +1,7 @@
-let F = function (){
-	console.log(this)
+function formatDate(userDate) {
+  // format from M/D/YYYY to YYYYMMDD
+  ///return userDate.replace("/", " ")
+  return userDate.split("/").reverse().join("").toS
 }
-
-new F()
+ 
+console.log(formatDate("12/31/2014"))
