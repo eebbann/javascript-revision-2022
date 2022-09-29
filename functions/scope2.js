@@ -17,10 +17,23 @@ function foo() {
 // console.log(inner); // console.log will print global cus can access local variables
 foo();
 
-(function loc() {
-	var a =	10;
-var b =	 45;
+(function loc( ) {
+var a =20
+var b = 9
+// console.log(a + b);
+ }( )) //IIFE  immediately invoke  function
  
-console.log(a + b); }()) //IIFE  immediately invoke  function
 
-function myFn() {
+//  IIFE: is to avoid global funtion
+
+ 
+// console.log(`hey ${foon}`)
+
+ //exercise
+
+function inn(){
+	let c = b
+	console.log(c)
+	let b = 23
+}
+inn() 
