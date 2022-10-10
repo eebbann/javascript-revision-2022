@@ -15,10 +15,13 @@ console.log( r)
 
 
 //push to add to list
- const puh = fruits.push("pineapple")
+const puh = fruits.push("pineapple")
 console.log(fruits)
 
+//indexOf
 
+const position = fruits.lastIndexOf(3)
+console.log(position)
 
 
 
