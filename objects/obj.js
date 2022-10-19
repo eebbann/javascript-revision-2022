@@ -1,16 +1,38 @@
-let cat = {"pop":"dog","cat":"puppy"}
-const lists=[{"name":"test","type":"string"},cat]
-cat["lop"] = 12
+// const circle = {} //  --- onject lliterals syntex
+     
+const circle ={
+	radius: 2,
+	location:{
+	x:11,
+	y:12,},
+	draw: function(){
+		console.log('pop')
+	}
 
-let main = {"pop":"bottle","crack":"eggs"}
-lists.push(main)
-main.pop = "pooop"
-lists[0].name = "pkj"
-console.log(lists) ;
-
-//objects do not have length property so we need to use for in loop
-
-for (let prop in cat) {
-	console.log(cat[prop]) ;
 }
 
+circle.draw();
+
+
+function createCircle(radius){
+	return{
+		radius:radius,
+		draw:function(){
+			console.log('draw')
+		}
+	}
+}
+createCircle()
+
+//construction function
+
+function createCircle(radius){
+		this.radius=radius;
+		this.draw=function(){
+			console.log("hello" + this.radius);
+			return; 
+	}
+}
+createCircle.apply()
+ const curve = new createCircle(99)
+ console.log(curve.radius);
