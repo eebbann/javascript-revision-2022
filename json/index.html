@@ -1,0 +1,27 @@
+JSON: Javascript Object Notation
+<div id="myObj"></div>
+<script>
+	var myOb = { people: [{ "firstName": "John", "LastName": "tokumbo" }, { "firstName": "Janny", "LastName": "timi" }] };
+	// console.log(myObj);
+	// document.getElementById("myObj").innerHTML =JSON.stringify(myOb)
+
+	// sessionStorage.setItem('friend',myOb)
+
+	//*********** json array ****************************
+	// var friends = [];
+
+	// friends[0] = 'one';
+	// friends[1] = 'two';
+
+	// var m = JSON.stringify(friends)
+	// console.log(m)
+
+
+	//*********** looping through list  ****************************
+
+	var use = myOb.people;
+
+	for (let x of use || x in use) { 
+		console.log(x.firstName + " " + b);
+	}
+</script>
