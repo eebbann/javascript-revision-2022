@@ -34,13 +34,18 @@ console.log("fruitty",fruitty)
 let slicy = fruit.slice(0,1) 
 console.log("slicy",slicy)
  
-fruit.splice(1,0)
+fruit.splice(1,1)
 console.log("splice",fruit);
 
 let con = fruit.concat(slicy)
 console.log(con)
 
-let char = ["i",'a','m','a','b','o','y','f','r','o','m','l','a','g','o','s'] ;
+let char = ["i",'a','m','a','b', 'o','s'] ;
 let sentence = char.join('')
 console.log(sentence)
 
+// map
+ let mxan ={ num:10} 
+man.map((value)=> { //callback function
+	console.log( value + mxan.num)
+})
