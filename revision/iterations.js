@@ -49,3 +49,9 @@ console.log(sentence)
 man.map((value)=> { //callback function
 	console.log( value + mxan.num)
 })
+
+//filter
+man.filter((value)=> { //callback function
+	value <= 30
+	console.log(  value )
+})
