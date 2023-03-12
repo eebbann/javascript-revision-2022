@@ -55,6 +55,5 @@ console.log(her)
 	[id]: 123,
 	[id2]:'hello'
  }
-
- console.log(obj)
-
+ 
+ 
