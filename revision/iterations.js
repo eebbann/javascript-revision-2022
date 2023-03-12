@@ -1,57 +1,57 @@
-const arr = [1,4,5,6,9]
+// const arr = [1,4,5,6,9]
 
-for(let a = 0; a < arr.length ; a++){
-	// console.log(arr[a])
-	// console.log(a)
+// for(let a = 0; a < arr.length ; a++){
+// 	// console.log(arr[a])
+// 	// console.log(a)
 
 
-}
-//use this instead 
-  // let i =0
-for (const val of arr){
-	// console.log(val)
-	// console.log(i)
-	// i ++
-}
+// }
+// //use this instead 
+//   // let i =0
+// for (const val of arr){
+// 	// console.log(val)
+// 	// console.log(i)
+// 	// i ++
+// }
    
-//foreach
-arr.forEach((value,index,a)=>{
-	// console.log(value, index)
-})
+// //foreach
+// arr.forEach((value,index,a)=>{
+// 	// console.log(value, index)
+// })
 
-let man = [2,4,5,1,22,44]
-let p = man.slice(1,3 )//4 5
-man.splice(4,1) // 2 4 5
-console.log("pop",p)
-console.log(man)
+// let man = [2,4,5,1,22,44]
+// let p = man.slice(1,3 )//4 5
+// man.splice(4,1) // 2 4 5
+// console.log("pop",p)
+// console.log(man)
 
 //more working
 let fruit = ["mango","pawpaw","apple","orange"]
 
-let fruitty = fruit.join(" ")
-console.log("fruitty",fruitty)
+// let fruitty = fruit.join(" ")
+// console.log("fruitty",fruitty)
 
-let slicy = fruit.slice(0,1) 
-console.log("slicy",slicy)
+// let slicy = fruit.slice(0,1) 
+// console.log("slicy",slicy)
  
-fruit.splice(1,1)
-console.log("splice",fruit);
+// fruit.splice(1,1)
+// console.log("splice",fruit);
 
-let con = fruit.concat(slicy)
-console.log(con)
+// let con = fruit.concat(slicy)
+// console.log(con)
 
-let char = ["i",'a','m','a','b', 'o','s'] ;
-let sentence = char.join('')
-console.log(sentence)
+// let char = ["i",'a','m','a','b', 'o','s'] ;
+// let sentence = char.join('')
+// console.log(sentence)
 
 // map
- let mxan ={ num:10} 
-man.map((value)=> { //callback function
-	console.log( value + mxan.num)
-})
+//  let mxan ={ num:10} 
+// man.map((value)=> { //callback function
+// 	console.log( value + mxan.num)
+// })
 
 //filter
-man.filter((value)=> { //callback function
-	value <= 30
-	console.log(  value )
-})
+fruit.sort(); console.log(fruit)
+ 
+const ma = fruit.every(value=> value.length = 4 )
+console.log(ma) 

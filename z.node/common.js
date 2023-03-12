@@ -1,2 +1,2 @@
-require('./node1')
-console.log ("sum it")
+require('./bat')
+require('./obi') 
