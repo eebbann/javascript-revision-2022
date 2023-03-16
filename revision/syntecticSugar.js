@@ -35,5 +35,5 @@ console.log(double.join(","));
 	 const person = {
 
 	 }
-	 console.log(person?.company?.website ?? 'foo')
+	 console.log(person?.company?.website &&    'foo')
 
