@@ -16,9 +16,20 @@ const firstli = document.querySelectorAll('li'); // queryselector for single .. 
 	 
 // });
 
-firstli[2].setAttribute("id", " ") ;
-console.log(firstli[0]);
-firstli[0].classList.add('bog');
+// firstli[2].setAttribute("id", " ") ;
+// console.log(firstli[0]);
+// firstli[0].classList.add('bog');
 
 
-console.log(firstli)
+// console.log(firstli)
+
+const parent = document.querySelector('ol');
+const listItems = [];
+
+for(let i = 0; i< 3; i++){
+ const li = document.createElement('li');
+ li.textContent = `List item with i=${i}`
+ listItems.push(li)
+}
+parent.append(...listItems)
+// /

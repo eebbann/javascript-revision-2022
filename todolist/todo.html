@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>todo List 2020 with local storage</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<main class="app">
+	<section class="greeting">
+		<h2 class="title">
+			whats up <input type="text" id="name" placeholder="Human!" >
+		</h2>
+	</section>
+	<section class="create-todo">
+		<h3>
+CREATE A TODO 
+		</h3>
+		<form action="" id="" new-todo>
+			<h4>What's on your Todo list</h4>
+			<input type="text" placeholder="e.g: make a video" id="">
+			<h4>pick a category</h4>
+			<div class="option">
+				<label for="">
+					<input type="radio" name="category" value="business" id="category1">
+					<span class="bubble business"></span>
+					<div>business</div>
+				</label>
+				<label for="">
+					<input type="radio" name="category" value="personal" id="category2">
+					<span class="bubble personal"></span>
+					<div>personal</div>
+				</label>
+			</div>
+			<input type="submit" value="Add todo">
+		</form>
+	</section>
+	<section class="todo-list">
+		<h3>TODO LIST</h3>
+		<div class="list" id="todo-list">
+			<div class="todo-item">
+				<label for="">
+					<input type="checkbox" />
+					<span class="bubble business"></span>
+				</label>
+				<div class="todo-content"><input type="text" value="make a video" readonly />
+				</div>
+				<div class="action">
+					<button class="edit">Edit</button>
+					<button class="delete">Delete</button>
+				</div>
+			</div>
+			<div class="todo-item">
+				<label for=""> 
+					<input type="checkbox" name="" id="">
+					<span class="bubble personal"></span>
+				</label>
+				<div class="todo-content">
+					<input type="text" value="get milk" readonly >
+				</div>
+				<div class="action">
+					<button class="edit">Edit</button>
+					<button class="delete">Delete</button>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+
+<body>
+	<style src="main.js"></style>
+</body>
+
+</html>
