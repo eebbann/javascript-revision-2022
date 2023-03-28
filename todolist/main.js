@@ -1,3 +1,4 @@
-window.addEventListener('load', ()=>{
-	todos = JSON.parse(local)
-})
+ window.addEventListener('load',()=>{
+	todos = JSON.parse(localStorage.getItem('todos')) || [];
+	const  
+ })
