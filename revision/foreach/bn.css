@@ -1,0 +1,12 @@
+section{
+	width:300px;
+	height:300px;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+div{
+	height: 100px;
+	width:100px
+	;background-color: gold;
+}

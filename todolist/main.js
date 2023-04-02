@@ -1,4 +1,4 @@
  window.addEventListener('load',()=>{
 	todos = JSON.parse(localStorage.getItem('todos')) || [];
-	const  
+	const nameInput = document.querySelector('todo'); 
  })
