@@ -6,4 +6,4 @@ div.forEach((di)=>{
 })
 function clicker(){
 	alert('clicked me')
-}
+} 
