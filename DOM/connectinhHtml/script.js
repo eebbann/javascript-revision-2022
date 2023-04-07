@@ -53,3 +53,8 @@ scroll.style.padding = "10px"
 scroll.addEventListener('dragover',(e)=>{
 	e.preventDefault()
 })
+scroll.addEventListener('click',(e)=>{
+ if(e.target !== this){
+	e.target.textContent = "clicked"
+ }
+})
