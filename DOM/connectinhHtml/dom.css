@@ -5,3 +5,11 @@
 	background-color: antiquewhite;
 	font-size: 20px;
 }
+
+#scrollable{
+	width:70%; 
+	height: 100px;
+	overflow:scroll;
+	background-color: aqua;
+	border: 1px solid gray;
+}
