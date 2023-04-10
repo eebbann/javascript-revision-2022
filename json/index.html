@@ -1,8 +1,24 @@
-JSON: Javascript Object Notation
-<div id="myObj"></div>
-<script>
-	var myOb = { people: [{ "firstName": "John", "LastName": "tokumbo" }, { "firstName": "Janny", "LastName": "timi" }] };
-	// console.log(myObj);
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<p class="js">JSON:Javascript Object Notation - </p>
+	<div id="myObj"></div>
+	<script>
+		var myOb = { people: [{ "firstName": "John", "LastName": "tokumbo" }, { "firstName": "Janny", "LastName": "timi" }] };
+		console.log(myOb.people[0].month = "90");
+		console.log(myOb);
+		var stringies =  JSON.stringify(myOb.people)
+      console.log(stringies);
+
+
 	// document.getElementById("myObj").innerHTML =JSON.stringify(myOb)
 
 	// sessionStorage.setItem('friend',myOb)
@@ -17,11 +33,14 @@ JSON: Javascript Object Notation
 	// console.log(m)
 
 
-	//*********** looping through list  ****************************
+	//***********  looping through list  ****************************
 
-	var use = myOb.people;
+	// var use = myOb.people;
 
-	for (let x of use || x in use) { 
-		console.log(x.firstName + " " + b);
-	}
-</script>
+	// for (let x of use || x in use) {
+	// 	console.log(x.firstName + " " + b);
+	// }
+	</script>
+</body>
+
+</html>
