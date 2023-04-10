@@ -17,29 +17,34 @@
 		console.log(myOb);
 		var stringies =  JSON.stringify(myOb.people)
       console.log(stringies);
+ 
+	// sessionStorage
+		sessionStorage.setItem('friend',JSON.stringify(myOb))
+
+		var myList = sessionStorage.getItem('friend')
+
+		console.log(myList)
+
+		var stg = console.log(JSON.parse(myList))
+    console.log(Object.assign(myList))
+	 
+		//arrays in json format
+    var friends  = [12,23,5]
+
+		const ren = JSON.parse(JSON.stringify(friends));
+		console.log("array" + ren)
 
 
-	// document.getElementById("myObj").innerHTML =JSON.stringify(myOb)
+	// ***********  looping through list  ****************************
+console.log('loooping sectionnnn.......')
+	var use = myOb.people;
 
-	// sessionStorage.setItem('friend',myOb)
-
-	//*********** json array ****************************
-	// var friends = [];
-
-	// friends[0] = 'one';
-	// friends[1] = 'two';
-
-	// var m = JSON.stringify(friends)
-	// console.log(m)
-
-
-	//***********  looping through list  ****************************
-
-	// var use = myOb.people;
-
-	// for (let x of use || x in use) {
-	// 	console.log(x.firstName + " " + b);
-	// }
+	for (let x in use) {
+		console.log(x)
+		console.log(use)
+		console.log(use[x])
+		console.log(x.firstName + " " + b);
+	}
 	</script>
 </body>
 
